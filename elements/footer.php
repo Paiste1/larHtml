@@ -24,6 +24,7 @@
 		<a href="about.php">О Нас</a>
 		<a href="contacts.php">Контакты</a>
 		<a href="callback.php">Обратная связь</a>
+		<a href="enter.php">Войти</a>
 	</nav>
 	<!-- <div class="logo">
 		<a href="/"><img class="graphic-logo" src="/files/img/logo.png" alt=""></a>

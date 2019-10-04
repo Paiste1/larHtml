@@ -9,20 +9,25 @@
 	<main style="min-height: 554px;">		
 		<div class="fulle">
 			<div class="buttons">
-				<a href="#">Авторизация</a>
-				<a href="#">Регистрация</a>
+				<a href="#" class="au">Авторизация</a>
+				<a href="#" class="re">Регистрация</a>
 			</div>
-			<div class="auth">
-				<div>
-					<form>
-						<input type="text" name="login" autocomplete="off" placeholder="Логин">
-						<input type="password" name="password" autocomplete="off" placeholder="Пароль">
-						<input type="submit" name="submit" value="Войти">
-					</form>
-				</div>
+			<div class="forma auth">
+				<h1>Авторизация</h1>
+				<form>
+					<input type="text" name="login" autocomplete="off" placeholder="Логин">
+					<input type="password" name="password" placeholder="Пароль">
+					<input type="submit" class="saba" name="submit" value="Войти">
+				</form>
 			</div>
-			<div class="reg">
-				
+			<div class="forma reg" style="display: none;">
+				<h1>Регистрация</h1>
+				<form>
+					<input type="text" name="login" autocomplete="off" placeholder="Логин">
+					<input type="password" name="password" placeholder="Пароль">
+					<input type="password2" name="password2" placeholder="Повторите пароль">
+					<input type="submit" class="saba" name="submit-reg" value="Зарегистрироваться">
+				</form>
 			</div>
 		</div>
 	</main>

@@ -295,6 +295,56 @@ textarea {
 .textnews {
 	float: left;
 }
+/*рега*/
+.buttons {
+	text-align: center;
+	font-size: 18px;
+}
+.buttons a {
+	background: #000;
+	color: #fff;
+	padding: 10px;
+}
+.buttons a:hover {
+	background: #494949;
+}
+.forma {
+	margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid;
+    width: 400px;
+    background: #000;
+}
+.forma form {
+	display: grid;
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 0 30px 0;
+}
+.forma form input {
+	height: 27px;
+    padding: 7px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+}
+.forma h1 {
+	color: #fff;
+	padding-top: 20px;
+}
+.name {
+	color: #fff;
+}
+form .saba {
+	height: 40px !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+form .saba:hover {
+	background: #494949;
+	color: #fff;
+}
+/**/
 /*адаптива*/
 @media screen and (max-width: 768px) {
 	.topnav a:not(:first-child) {
